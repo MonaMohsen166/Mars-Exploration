@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="DataStructures">
+      <UniqueIdentifier>{baefc517-8e55-4835-8940-968a3b212789}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DataStructures\PrioriyQueue">
+      <UniqueIdentifier>{68f5c62e-57e4-49f5-ae03-7c1a7e8dfb33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Events">
+      <UniqueIdentifier>{6b93bacd-a942-484d-9aea-36247ea43e8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Events\Event">
+      <UniqueIdentifier>{5c0143ce-6ae7-49cb-bdb5-a716f115d1a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Events\FormulationEvent">
+      <UniqueIdentifier>{0eb6ee9c-b74a-4a51-81ec-a2869695bb5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Events\CancelEvent">
+      <UniqueIdentifier>{6bc15a3a-1715-48d0-a90d-85cc9b8ebcfa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Events\PrompteEvent">
+      <UniqueIdentifier>{b008f9e7-7527-40d6-8ac3-4c7a5051281e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mission">
+      <UniqueIdentifier>{2561553b-7eb5-4a84-9bbb-b45ceec2083f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Rover">
+      <UniqueIdentifier>{bad13609-5f1e-4451-8bea-874d8fb4567a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MarsStation">
+      <UniqueIdentifier>{f9875ec0-8578-472a-9826-721936c5fdea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI">
+      <UniqueIdentifier>{e9976c0c-2273-4640-acd1-fb8f0f7e6537}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Event.cpp">
+      <Filter>Events\Event</Filter>
+    </ClCompile>
+    <ClCompile Include="FormulationEvent.cpp">
+      <Filter>Events\FormulationEvent</Filter>
+    </ClCompile>
+    <ClCompile Include="CancelEvent.cpp">
+      <Filter>Events\CancelEvent</Filter>
+    </ClCompile>
+    <ClCompile Include="PrompteEvent.cpp">
+      <Filter>Events\PrompteEvent</Filter>
+    </ClCompile>
+    <ClCompile Include="Mission.cpp">
+      <Filter>Mission</Filter>
+    </ClCompile>
+    <ClCompile Include="Rover.cpp">
+      <Filter>Rover</Filter>
+    </ClCompile>
+    <ClCompile Include="MarsStation.cpp">
+      <Filter>MarsStation</Filter>
+    </ClCompile>
+    <ClCompile Include="UI.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Node.h">
+      <Filter>DataStructures</Filter>
+    </ClInclude>
+    <ClInclude Include="Queue.h">
+      <Filter>DataStructures</Filter>
+    </ClInclude>
+    <ClInclude Include="PNode.h">
+      <Filter>DataStructures\PrioriyQueue</Filter>
+    </ClInclude>
+    <ClInclude Include="PriQueue.h">
+      <Filter>DataStructures\PrioriyQueue</Filter>
+    </ClInclude>
+    <ClInclude Include="Event.h">
+      <Filter>Events\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="FormulationEvent.h">
+      <Filter>Events\FormulationEvent</Filter>
+    </ClInclude>
+    <ClInclude Include="CancelEvent.h">
+      <Filter>Events\CancelEvent</Filter>
+    </ClInclude>
+    <ClInclude Include="PrompteEvent.h">
+      <Filter>Events\PrompteEvent</Filter>
+    </ClInclude>
+    <ClInclude Include="Mission.h">
+      <Filter>Mission</Filter>
+    </ClInclude>
+    <ClInclude Include="Rover.h">
+      <Filter>Rover</Filter>
+    </ClInclude>
+    <ClInclude Include="MarsStation.h">
+      <Filter>MarsStation</Filter>
+    </ClInclude>
+    <ClInclude Include="UI.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
